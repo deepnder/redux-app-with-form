@@ -1,38 +1,61 @@
-.App {
+/* App.css */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-container {
+  margin-bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-container h2 {
+  margin-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-container input,
+.form-container select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.create-button {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.create-button:hover {
+  background-color: #2980b9;
+}
+
+.edit-form-container {
+  margin-bottom: 30px;
+}
+
+.edit-form-container h3 {
+  margin-bottom: 10px;
+}
+
+.filtered-forms-container {
+  margin-bottom: 30px;
+}
+
+.filtered-forms-container h2 {
+  margin-bottom: 10px;
+}
+
+.filtered-forms-container select {
+  margin-bottom: 10px;
 }
